@@ -1,0 +1,12 @@
+<configuration>
+    <property>
+    <name>mapred.queue.default.acl-administer-jobs</name>
+    <value>*</value>
+  </property> 
+
+    <property>
+    <name>mapred.queue.default.acl-submit-job</name>
+    <value>*</value>
+  </property> 
+
+</configuration>
