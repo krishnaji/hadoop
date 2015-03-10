@@ -343,7 +343,7 @@ ADD ssh_cfg /root/.ssh/config
 RUN chmod 600 /root/.ssh/config
 RUN chown root:root /root/.ssh/config
 
-RUN apt-get install -y hbase phoenix pig hive-hcatalog  tez
+RUN apt-get install -y hbase phoenix pig hive hive-hcatalog  tez
 
 RUN ln -s /usr/share/java/postgresql-jdbc4.jar /usr/hdp/current/hive-metastore/lib/postgresql-jdbc4.jar
 RUN chmod 644 /usr/hdp/current/hive-metastore/lib/postgresql-jdbc4.jar
